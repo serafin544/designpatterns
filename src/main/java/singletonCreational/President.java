@@ -14,13 +14,12 @@ public final class President {
        return instance;
     }
 
-    @Override
-    protected java.lang.Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
+   protected Object clone(){
+        return null;
+   }
 
-    private void wakeup(){
-
+    private Object wakeup(){
+        return null;
     }
 
 }
